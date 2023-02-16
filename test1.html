@@ -1,0 +1,190 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>body {
+      margin-top: 0%;
+      padding: 0%;
+    } 
+    .bar-graph-wrap {
+        position: relative;
+        height: 1000px;
+        -webkit-box-shadow: 0 15px 30px rgba(9, 9, 9, 0.2);
+                box-shadow: 0 15px 30px rgba(9, 9, 9, 0.2);
+        overflow:hidden;
+      }
+      .bar-graph-wrap .table {
+        height: 50px;
+        position: absolute;
+        left: 0;
+        border-radius: 0 4px 4px 0;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+      }
+      .bar-graph-wrap .table.aaa {
+        top: 0%;
+        background: white;
+        width: 100%;
+      }
+      .bar-graph-wrap .table.bbb {
+        background: #f2f2f2;
+        width: 100%;
+        top: 5%;
+      }
+      .bar-graph-wrap .table.ccc {
+        top: 10%;
+        background: white;
+        width: 100%;
+      }
+      .bar-graph-wrap .table.ddd {
+        top: 15%;
+        background: #f2f2f2;
+        width: 100%;
+      }
+    
+      
+      .inner {
+        position: absolute;
+        top: 50%;
+        left: 3%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .inner1 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    
+    .inner2 {
+      position: absolute;
+      top: 50%;
+      left: 80%;
+      transform: translate(-50%, -50%);
+    }
+    .inner4 {
+      position: absolute;
+      top: 50%;
+      left: 1.5%;
+      transform: translate(-50%, -50%);
+    }
+    
+    /* FOR MOBILE */
+    
+    @media screen and (max-width: 600px) {
+      body {
+        margin-top: 0%;
+        padding: 0%;
+      }
+      .bar-graph-wrap {
+          position: relative;
+          height: 1000px;
+          -webkit-box-shadow: 0 15px 30px rgba(9, 9, 9, 0.2);
+                  box-shadow: 0 15px 30px rgba(9, 9, 9, 0.2);
+          overflow:hidden;
+        }
+        .bar-graph-wrap .table {
+          height: 50px;
+          position: absolute;
+          left: 0;
+          border-radius: 0 4px 4px 0;
+          display: flex;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          -webkit-box-pack: justify;
+              -ms-flex-pack: justify;
+        }
+        .bar-graph-wrap .table.aaa {
+          top: 0%;
+          background: white;
+          width: 100%;
+        }
+        .bar-graph-wrap .table.bbb {
+          background: #eca1a6;
+          width: 100%;
+          top: 5%;
+        }
+        .bar-graph-wrap .table.ccc {
+          top: 10%;
+          background: white;
+          width: 100%;
+        }
+        .bar-graph-wrap .table.ddd {
+          top: 15%;
+          background: #eca1a6;
+          width: 100%;
+        }
+    
+        .box{
+          border-width:5px;
+          border-color: #000000;
+          border-style: solid;	
+          width: 400px;
+          height: 425px;    
+          }
+          
+        
+        .inner {
+          position: absolute;
+          top: 50%;
+          left: 15%;
+          transform: translate(-50%, -50%);
+      }
+      
+      .inner1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      
+      .inner2 {
+        position: absolute;
+        top: 50%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+      }
+      .inner4 {
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        transform: translate(-50%, -50%);
+      }
+      .box {
+        border: #000000 solid 3px;
+        border-radius: 30px;
+      }
+    
+    }
+    </style>
+    <div id="bar-graph" class="content">
+      <div class="bar-graph-wrap">
+          <div class="table aaa">          
+            <div class="inner"><h3>First Name</h3> </div>
+            <div class="inner1"><h3>Last Name</h3></div>
+            <div class="inner2"><h3>Points</h3></div>
+        </div>
+          <div class="table bbb">
+            <div class="inner4">Jill</div>
+            <div class="inner1">Smith</div>
+            <div class="inner2">50</div>
+        </div>
+          <div class="table ccc">
+            <div class="inner4">Eve</div>
+            <div class="inner1">Jackson</div>
+            <div class="inner2">94</div>
+         </div>
+          <div class="table ddd">
+            <div class="inner4">Adam</div>
+            <div class="inner1">johnson</div>
+            <div class="inner2">67</div>
+        </div>
+      </div>
+      
